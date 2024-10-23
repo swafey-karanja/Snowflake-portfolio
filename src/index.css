@@ -11,3 +11,91 @@ html {
 body {
   @apply bg-zinc-900 text-zinc-50 
 }
+
+/**
+ * Components
+ */
+
+/* menu-btn */
+.menu-btn {
+  @apply w-10 h-10 grid place-items-center bg-zinc-50/10 ring-inset rounded-xl ring-1 ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15 transition-[transform,background-color] active:scale-95;
+  position: relative;
+  z-index: 50;
+}
+
+.menu-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.menu-line {
+  @apply bg-zinc-50;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.menu-line.top {
+  top: 3px;
+}
+
+.menu-line.middle {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu-line.bottom {
+  bottom: 3px;
+}
+
+/* Active states for menu lines */
+.menu-line {
+  transition: transform 1s, opacity 1s; /* Adds 1 second transition for transform and opacity */
+}
+
+.menu-line.top.active {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.menu-line.middle.active {
+  opacity: 0;
+}
+
+.menu-line.bottom.active {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* navbar */
+.navbar {
+  @apply absolute top-full mt-2 right-0 min-w-40 p-2 bg-zinc-50/10 rounded-2xl ring-inset ring-1 ring-zinc-50/5 scale-90 opacity-0 invisible transition-all duration-200 ease-in-out backdrop-blur-md md:static md:flex md:items-center md:mt-0 md:opacity-100 md:blur-0 md:visible md:scale-100;
+  transform-origin: top right;
+}
+
+.navbar.navbar-active {
+  @apply scale-100 opacity-100 visible;
+}
+
+.navbar .active-box {
+  @apply absolute top-2 left-2 right-2 h-9 bg-zinc-50/15 rounded-lg -z-10 transition-[top,left] duration-500
+}
+
+/* nav links */
+.nav-link {
+  @apply block px-4 py-2 text-sm font-medium transition-colors rounded-lg text-zinc-50/50 hover:text-zinc-50;
+}
+
+.nav-link.active {
+  @apply text-zinc-50 duration-500;
+}
+
+/* Button */
+.btn {
+  @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-medium text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color]
+}
+
+.btn-secondary {
+  @apply bg-zinc-500 text-zinc-50 active:bg-zinc-50/80;
+}
