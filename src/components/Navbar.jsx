@@ -18,7 +18,6 @@ const Navbar = ({ navOpen }) => {
     const lastActiveLink = useRef();
     const activeBox = useRef();
     const initActiveBox = () => {
-        console.log(lastActiveLink.current);
         activeBox.current.style.top = lastActiveLink.current.offsetTop + 'px';
         activeBox.current.style.left = lastActiveLink.current.offsetLeft + 'px';
         activeBox.current.style.width = lastActiveLink.current.offsetWidth + 'px';

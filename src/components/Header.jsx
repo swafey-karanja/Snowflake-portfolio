@@ -22,7 +22,7 @@ const Header = () => {
                 <h1>
                     <a href="/" className="logo">
                         <img 
-                            src="src/images/snowflake-2.svg" 
+                            src="src/images/home/snowflake-2.svg" 
                             alt="Snowflake"
                             width={40}
                             height={40}
