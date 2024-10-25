@@ -31,7 +31,7 @@ const About = () => {
      className="section"
     >
         <div className="container">
-            <div className="bg-zinc-800/50 p-7 rounded-2xl md:pt-12">
+            <div className="bg-zinc-800/50 p-7 rounded-2xl md:pt-12 reveal-up">
                 <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[90ch] ">
                     Welcome! I&apos;m Sam, a professional web 
                     developer and mobile application developer 

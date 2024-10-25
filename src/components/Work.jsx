@@ -28,7 +28,7 @@ const works = [
     },
     {
       imgSrc: 'src/images/work/AIApp.webp',
-      title: 'AI Animal Husbandry App',
+      title: 'AI Animal Husbandry Web App',
       tags: ['Development', 'AI'],
       projectLink: 'https://github.com/swafey-karanja/AI-based-Animal-Husbandry-system'
     },
@@ -60,7 +60,7 @@ const Work = () => {
      id="work"
     >
         <div className="container">
-            <h2 className="headline-2 mb-8">
+            <h2 className="headline-2 mb-8 reveal-up">
                 My Portfolio highlights
             </h2>
 
@@ -72,6 +72,7 @@ const Work = () => {
                       title={title}
                       tags={tags}
                       projectLink={projectLink}
+                      classes="reveal-up"
                     />
                  ))
                 }
