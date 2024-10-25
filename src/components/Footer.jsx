@@ -58,7 +58,7 @@ const socials = [
 const Footer = () => {
   return (
     <footer className="section">
-        <div className="container">
+        <div className="container mb 2">
 
             <div className="lg:grid lg:grid-cols-2 ">
                 <div className="mb-10">
@@ -125,7 +125,7 @@ const Footer = () => {
                  className="logo reveal-up"
                 >
                     <img
-                     src="/src/images/home/snowflake-2.svg" 
+                     src="/images/home/snowflake-2.svg" 
                      alt="Logo"
                      width={40}
                      height={40} 

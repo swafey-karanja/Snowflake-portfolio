@@ -56,7 +56,7 @@ const About = () => {
                     }
 
                     <img
-                     src="src/images/home/snowflake-2.svg" 
+                     src="/images/home/snowflake-2.svg" 
                      alt="Logo"
                      height={30}
                      width={30}
