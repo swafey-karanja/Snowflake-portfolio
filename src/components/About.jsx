@@ -16,7 +16,7 @@ import Skills from "./Skills";
 const aboutItems = [
     {
         label: 'Projects done',
-        number: 45
+        number: 20
     },
     {
         label: 'Years of experience',
