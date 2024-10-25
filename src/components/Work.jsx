@@ -35,20 +35,38 @@ const works = [
     {
       imgSrc: 'images/work/ticketApp.webp',
       title: 'Ticket Website',
-      tags: ['Web-design', 'Development'],
+      tags: ['Web-design', 'Front-end Development'],
       projectLink: 'https://github.com/swafey-karanja/TicketingApp'
     },
     {
       imgSrc: 'images/work/schoolManagement.png',
       title: 'School Management website',
-      tags: ['Management', 'Development'],
+      tags: ['Management', 'Front-end Development'],
       projectLink: 'https://github.com/swafey-karanja/schoolManagementApp'
     },
     {
       imgSrc: 'images/work/portfolio.jpg',
       title: 'Personal portfolio',
-      tags: ['Web-design', 'Development'],
+      tags: ['Web-design', 'Front-end Development'],
       projectLink: 'https://github.com/swafey-karanja/Snowflake-portfolio'
+    },
+    {
+      imgSrc: 'images/work/mteja.jpg',
+      title: 'Mteja Website',
+      tags: ['Web-design', 'Front-end Development'],
+      projectLink: 'https://mteja.co.ke/'
+    },
+    {
+      imgSrc: 'images/work/shamba.jpg',
+      title: 'Shamba Solutions Website',
+      tags: ['Web-design', 'Front-end Development'],
+      projectLink: 'https://www.ycenterssl.com/'
+    },
+    {
+      imgSrc: 'images/work/Piczangu.jpg',
+      title: 'PicZangu Website',
+      tags: ['Web-design', 'Front-end Development'],
+      projectLink: 'https://piczangu.com/'
     },
   ];
 
